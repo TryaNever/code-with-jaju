@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color-pale-navy: #36384D;
+    --color-dark-navy: #242742;
+    --linear-gradient-salmon: linear-gradient(204.47deg, #FF6A3A 0%, #FF527B 100%);
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: var(--color-pale-navy);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-image: url("/assets/img/check.svg");
+    list-style-position: inside;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 56px;
+}
+
+.compagny-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    padding: 24px;
+}
+
+.contain-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 40%;
+    padding: 30px;
+}
+
+
+.error-message {
+    display: block;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.contain-img img {
+    height: 686px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+}
+
+label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+
+.email {
+    background-color: white;
+    padding-left: 20px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.submit {
+    background-color: var(--color-dark-navy);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: var(--linear-gradient-salmon);
+    box-shadow: 0px 16px 32px 0px #FF615580;
+
+}
+
+.contain-info-sucess {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 504px;
+    height: 520px;
+    padding: 50px;
+}
+
+.contain-info-sucess img {
+    width: 64px;
+    height: 64px;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+
+}
+
+.contain-info-sucess p {
+    width: 100%;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contain-info-sucess input[type=submit] {
+    width: 100%;
+    height: 56px;
+    border-radius: 20px
+}
+
+.sucess-story {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
